@@ -1,0 +1,13 @@
+{
+  "name": "webpack_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop":"webpack-dev-server  --config webpack.develop.config.js --devtool eval --progress --colors --hot --content-base src",
+    "publish":"webpack --config webpack.publish.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
